@@ -26,7 +26,7 @@ func main() {
 	})
 
 	registry.Execute(`
-hello [[$username]]
+hello <<$username>>
 
 start
 <<sleep(500)>>
